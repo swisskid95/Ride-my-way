@@ -1,0 +1,52 @@
+
+.encloser{
+	width: 60%;
+	margin: auto;
+	overflow: hidden;
+}
+main h1 .title{
+	font-weight: bolder;
+	text-transform: capitalize;
+}
+main li{
+	margin-top: 30px; 
+	padding-top: 5px;
+	min-height: 5px;
+	background-color: #030520;
+	color: #ffffff;
+}
+.offers{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+article li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #ffffff; 
+}
+article li a:hover{
+	text-decoration: underline;
+}
+
+li button{
+	background-color: #ffffff;
+	color: #333333;
+	border: none;
+	text-transform: capitalize;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 35%;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	font-weight: bolder;
+	font-size: 1.3em;
+	min-width: 30%;
+	height: 30px;
+}
+li button:hover{
+	color:#ffffff;
+	background:transparent;
+	border: 2px solid #ffffff;
+}
