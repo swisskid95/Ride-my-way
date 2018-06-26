@@ -41,13 +41,11 @@ header a{
 header li{
 	float: left;
 	display: inline;
-	padding: 0px 50px 0px 50px;
-}
-header .nav_right{
-	float: right;
+	padding: 0px 30px 0px 30px;
 }
 header nav{
 	margin-top: 5px;
+	float: right;
 }
 header a:hover{
 	font-weight: bolder;
@@ -55,23 +53,17 @@ header a:hover{
  .active { 
 	font-weight: bold;
 }
-figure{
-	position: relative;
-	top: 0; left: 0;
-	max-width: 100%;
-	overflow: hidden;
+/*infographics*/
+#infographics{
+	margin: 0;
+	min-height: 600px;
+	background: url('../img/Highway2.jpg') no-repeat 0 -200px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 1.5em;
 }
-figure img{
-	max-width: 50%;
-	float: left;
-	margin: 0 1em 1em 0;
+.info{
+	padding-top: 100px;
 }
-figcaption{
-	position: absolute;
-	top: 0; right: 0;
-	max-width: 45%;
-	font-weight: bolder;
-}
-/*showcase*/
 
 
