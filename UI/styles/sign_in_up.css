@@ -1,5 +1,5 @@
 .encloser{
-	width: 40%;
+	width: 60%;
 	margin: auto;
 	overflow: hidden;
 }
@@ -13,8 +13,9 @@ legend h1{
 	text-transform: capitalize; 
 }
 input {
-	min-width: 100%;
+	min-width: 99%;
 	height: 30px;
+	padding-left: 10px;
 }
 button{
 	margin-top: 35px;
@@ -28,6 +29,7 @@ button{
 	border: 0;
 	font-size: 1.3em;
 	font-weight: bolder;
+	text-transform: capitalize;
 }
 button:hover{
 	color: #333333;

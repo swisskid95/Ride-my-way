@@ -1,6 +1,6 @@
 
 .encloser{
-	width: 80%;
+	width: 90%;
 	margin: auto;
 	overflow: hidden;
 }
@@ -9,28 +9,27 @@ main section h1 {
 	text-transform: uppercase;
 }
 main dl{
+	padding: 10px 15px 10px 15px;
 	display: inline-block;
-	margin: 0 30px 30px 30px;
+	margin: 0 25px 25px 25px; 
 	background-color: #030520;
 	color: #ffffff;
+	overflow-x: auto;
+	min-width: 25%;
 }
 main dl .userName{
 	text-align: center;
 }
 main dl .label{
 	float: left;
-	display: block;
-	padding-left: 10px;
+	display: inline-block;
+	padding-left: 8px;
 }
 main dl .content{
 	float: right;
-	padding-right: 10px;
+	display: inline-block;
+	padding-right: 8px;
 	text-align: left;
-}
-.offers{
-	width: 90%;
-	margin: auto;
-	overflow: hidden;
 }
 .title{
 	text-align: center;
@@ -52,12 +51,12 @@ dl button{
 	border: none;
 	text-transform: capitalize;
 	text-align: center;
-	margin-left: 15%;
+	margin-left: 35%;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	border-radius: 4px;
 	font-weight: bolder;
-	min-width: 25%;
+	min-width: 20%;
 	height: 25px;
 }
 dl button:hover{
@@ -65,3 +64,10 @@ dl button:hover{
 	background:transparent;
 	border: 2px solid #ffffff;
 }
+@media screen and (max-width: 600px) {
+  .dl {
+    float: none;
+    width: 100%;
+  }
+}
+
