@@ -69,5 +69,10 @@ dl button:hover{
     float: none;
     width: 100%;
   }
+  .searchRides{
+  	width: 70%;
+  	float: left;
+  }
 }
+
 

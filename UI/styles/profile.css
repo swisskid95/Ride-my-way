@@ -8,6 +8,10 @@ main section h1{
 	font-size: 1.5rem;
 	text-align: center;
 }
+header nav{
+	margin-top: 5px;
+	float: right;
+}
 table{
 	border-collapse: collapse;
 	border-spacing: 0;
