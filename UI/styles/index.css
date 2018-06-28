@@ -5,6 +5,9 @@ body{
 	background-color: #ffffff;
 	color: #333333;
 }
+html{
+	max-height: 98%;
+}
 /*global*/
 .container{
 	width: 80%;
@@ -17,7 +20,6 @@ ul{
 }
 /*header*/
 header{
-	border-bottom: #ffffff 2px solid;
 	padding-top: 5px;
 	min-height: 5px;
 	background-color: #030520;
@@ -41,37 +43,44 @@ header a{
 header li{
 	float: left;
 	display: inline;
-	padding: 0px 50px 0px 50px;
+	padding: 0px 10px 0px 10px;
 }
-header .nav_right{
+header .navRight{
+	margin-top: 5px;
 	float: right;
 }
-header nav{
-	margin-top: 5px;
+header nav input{
+	padding-left: 10px;
 }
-header a:hover{
+header li a:hover{
 	font-weight: bolder;
 }
  .active { 
 	font-weight: bold;
 }
-figure{
-	position: relative;
-	top: 0; left: 0;
-	max-width: 100%;
-	overflow: hidden;
+/*infographics*/
+#infographics{
+	margin-bottom: -5;
+	min-height: 100%;
+	max-height: 100%;
+	background: url('../img/Highway2.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	color: #ffffff;
+	font-size: 1.5em;
+	overflow-y: none;
 }
-figure img{
-	max-width: 50%;
-	float: left;
-	margin: 0 1em 1em 0;
+.info{
+	padding-top: 10%;
 }
-figcaption{
-	position: absolute;
-	top: 0; right: 0;
-	max-width: 45%;
-	font-weight: bolder;
+@media screen and (max-width: 600px) {
+  .dl {
+    float: none;
+    width: 100%;
+  }
 }
-/*showcase*/
 
 
