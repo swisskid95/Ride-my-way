@@ -1,0 +1,42 @@
+.encloser{
+	width: 70%;
+	margin: auto;
+	overflow: auto;
+}
+main section h1{
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	text-align: center;
+}
+header nav{
+	margin-top: 5px;
+	float: right;
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+li{
+	padding-left: 10%;
+}
+li figure{
+	overflow-x: auto;
+	width: 80%;
+}
+th{
+	font-weight: bolder;
+}
+td a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #333333;
+}
+td a:hover{
+	text-decoration: underline;
+}

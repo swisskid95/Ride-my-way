@@ -1,0 +1,46 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Ride my way, a way to get a ride with your friends that are going your way">
+	<meta name="keywords" content="ride, affrordable ride, taxi, uber, taxi hire, cab hire, car hire">
+	<meta name="author" content="Sanusi Babatunde">
+	<title>Ride my way|Create a ride offer</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:700i" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./styles/index.css">
+	<link rel="stylesheet" type="text/css" href="./styles/sign_in_up.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:700i" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<section class="container">
+			<h1 id="title"><a href="home.html"> RIDE MY WAY </a></h1>
+			<nav>
+				<ul>
+					<li class="nav_left active"><a href="create_ride_offer.html">new offer</a></li>
+					<li class="nav_right"><a href="my_ride_offers.html">ride request</a></li>
+					<li ><a href="profile.html">my profile</a></li>
+					<li><a href="index.html">log out</a></li>
+				</ul>
+			</nav>
+		</section>
+	</header>
+	<main>
+		<section class="encloser">
+			<form>
+				<legend class="newRideOffer"><h1>create new ride offer<hr></h1></legend><br><br>
+				<label for="rideOrigination">Ride's Origination</label><br>
+				<input type="text" name="rideDestination" placeholder="Where are you coming?"><br><br>
+				<label for="rideDestination">Ride's Destination</label><br>
+				<input type="text" placeholder="Where are you headed?"><br><br>
+				<label for="maxNumOfPass">Maximum number of passenger</label><br>
+				<input type="number" name="maxNumOfPass" min="1" placeholder="How many passengers can you accommodate?"><br><br>
+				<label for="departureTime">Time of Departure</label><br>
+				<input type="time" name="departureTime" placeholder="What time is the ride?"><br><br>
+				<button class="rideOfferBtn">submit</button>
+			</form>
+		</section>
+	</main>
+</body>
+</html>
