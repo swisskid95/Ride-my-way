@@ -64,13 +64,18 @@ dl button:hover{
 	background:transparent;
 	border: 2px solid #ffffff;
 }
+.searchRides{
+	margin-bottom: 10px;
+	min-height: 30px;
+	min-width: 100%;
+}
 @media screen and (max-width: 600px) {
   .dl {
     float: none;
     width: 100%;
   }
   .searchRides{
-  	width: 70%;
+  	min-width: 70%;
   	float: left;
   }
 }
